@@ -1,9 +1,9 @@
-$(document).ready(function () {
-    $('#header__toggle').click(function () {
-        $('.header-menu__list').slideToggle(700);
+$(document).ready(function() {
+    $('#nav-btn').click(function(){
+        $('.main-nav ul').slideToggle(700);
         if ($(this).hasClass('not-active')) {
             $(this).addClass('is-active').removeClass('not-active');
-        } else {
+        }else{
             $('.is-active').addClass('not-active').removeClass('is-active');
         }
     });
