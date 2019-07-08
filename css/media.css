@@ -1,0 +1,30 @@
+@media screen and (min-width: 680px) {
+    .nav-btn {
+        display: none;
+    }
+    .main-nav ul {
+        position: static;
+        width: auto;
+        background: none;
+        display: block;
+        float: right;
+    }
+    .main-nav li {
+        display: inline-block;
+        margin-right: 14px;
+    }
+    .main-nav a {
+        display: inline-block;
+        padding: 10px 8px;
+        border: none;
+    }
+}
+@media screen and (min-width: 980px) {
+    .main-nav li {
+        margin-right: 2px;
+    }
+
+    .main-nav li a {
+        padding: 8px 19px;
+    }
+}
