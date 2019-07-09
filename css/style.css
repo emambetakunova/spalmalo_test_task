@@ -24,7 +24,8 @@ body {
 .header {
   background: #3c434d;
 }
-.logo {
+.logo,
+.contact-logo {
   width: 200px;
   height: 30px;
   background: url(../images/logo-white.png) 50% no-repeat;
@@ -197,4 +198,41 @@ body {
 }
 .stuff-item a {
     display: block;
+}
+
+/************contact block*****************/
+.contact {
+    background: #3c434d;
+}
+.contact-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-item {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+}
+.contact-item:nth-of-type(1) {
+    flex: 3 200px;
+    display: flex;
+    flex-flow: column;
+}
+.contact-logo {
+    background: url(../images/logo-blue.png) 0 0 no-repeat;
+}
+.contact-title {
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+}
+.contact-title li {
+    list-style: none;
+}
+.contact-title li a {
+    text-decoration: none;
+    color: #80909c;
+    font-size: 18px;
+    font-weight: normal;
 }
