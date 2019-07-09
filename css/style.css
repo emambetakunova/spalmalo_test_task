@@ -106,3 +106,32 @@ body {
 .main-nav a:hover {
   color: #ffffff;
 }
+
+/************promo block*****************/
+.promo {
+  text-align: center;
+  color: #fff;
+  background: url(../images/promo-bg.jpg) center center/cover no-repeat;
+}
+
+.promo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+}
+
+.promo-button a {
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  padding: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 20px 0;
+  display: block;
+}
+
+.promo-button a:hover {
+  background: #629fd1;
+  border: 3px solid #629fd1;
+}

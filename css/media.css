@@ -18,6 +18,14 @@
         padding: 10px 8px;
         border: none;
     }
+    .promo {
+        padding: 130px;
+    }
+    .promo-button a {
+        display: inline-block;
+        width: 200px;
+        height: 65px;
+    }
 }
 @media screen and (min-width: 980px) {
     .main-nav li {
