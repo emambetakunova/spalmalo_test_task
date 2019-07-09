@@ -14,6 +14,12 @@ body {
   margin: 0 auto;
 }
 
+.title {
+    text-align: center;
+    font-size: 48px;
+    color: #3c434d;
+}
+
 /********header********/
 .header {
   background: #3c434d;
@@ -134,4 +140,61 @@ body {
 .promo-button a:hover {
   background: #629fd1;
   border: 3px solid #629fd1;
+}
+
+/************info block*****************/
+.info-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-item {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+}
+.info-item::before {
+    content: "";
+    width: 232px;
+    height: 65px;
+    display: block;
+    background: url(../images/sprite.png) no-repeat;
+}
+.info-item1::before {
+    background-position: 0 0;
+}
+.info-item2::before {
+    background-position: 0 -65px;
+}
+.info-item3::before {
+    background-position: 0 -130px;
+}
+.info-item4::before {
+    background-position: 0 -195px;
+}
+.info-inner {
+    padding-left: 10px;
+}
+
+/************stuff block*****************/
+.stuff {
+    text-align: center;
+}
+
+.stuff-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.stuff-item {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.stuff-item img {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.stuff-item a {
+    display: block;
 }

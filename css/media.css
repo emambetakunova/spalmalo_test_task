@@ -26,6 +26,9 @@
         width: 200px;
         height: 65px;
     }
+    .info-item {
+        width: 50%;
+    }
 }
 @media screen and (min-width: 980px) {
     .main-nav li {
@@ -34,5 +37,8 @@
 
     .main-nav li a {
         padding: 8px 19px;
+    }
+    .stuff-item {
+        width: 33%;
     }
 }
