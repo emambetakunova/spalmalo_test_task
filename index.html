@@ -14,7 +14,7 @@
 </head>
 <body>
 <header class="header">
-    <div class="container clearfix">
+    <div class="container clearfix header-block">
         <a class="logo" href="#">logo</a>
         <button id="nav-btn" class="nav-btn not-active" type="button"><i></i></button>
         <nav class="main-nav">
@@ -25,6 +25,15 @@
                 <li><a href="#">Заявка</a></li>
             </ul>
         </nav>
+        <div class="profile">
+            <div class="profile-image">
+                <img src="uploads/profile.jpg"/>
+                <span>2</span>
+            </div>
+            <div class="profile-text">
+                <span>Профиль</span>
+            </div>
+        </div>
     </div>
 </header>
 <div class="promo">
@@ -33,9 +42,38 @@
         <p>От загрязнения воды у рыбы может меняться пол. Приблизительно одна треть рыб в британских территориальных
             водах изменила пол из-за загрязнений, причиняемых канализацией.</p>
         <div class="promo-button">
-            <a href="">Узнать больше</a>
-            <a href="">Купить сейчас</a>
+            <a href="#">Узнать больше</a>
+            <a href="#">Купить сейчас</a>
         </div>
+    </div>
+</div>
+<div class="order">
+    <h2 class="title">Оставьте заявку</h2>
+    <div class="order-row">
+        <form class="form">
+            <div class="order-col">
+                <div>
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div>
+                    <input id="phone" type="text" placeholder="Телефон">
+                    <select>
+                        <option value="Начальный тариф">Начальный тариф</option>
+                        <option value="Двойной тариф">Двойной тариф</option>
+                        <option value="Полный тариф">Полный тариф</option>
+                    </select>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input id="agreement" type="checkbox">
+                <label for="agreement" class="agreement-text"><i></i>Принимаю условия <a href="#">пользовательского
+                    соглашения</a></label>
+            </div>
+            <div class="align-center">
+                <button class="button" type="submit">Отправить</button>
+            </div>
+        </form>
     </div>
 </div>
 <div class="info">
@@ -77,11 +115,11 @@
         </div>
     </div>
 </div>
-<div class="stuff">
+<div class="stuff slider-main">
     <div class="container">
         <h2 class="title">Наши сотрудники</h2>
         <div class="stuff-items">
-            <div class="stuff-item">
+            <div class="stuff-item slider">
                 <a href="#">
                     <img src="uploads/sergei-lapshin.png" alt="img">
                 </a>
@@ -118,7 +156,7 @@
                 <form>
                     <div class="form-wrapper">
                         <input type="email" placeholder="Email">
-                        <button type="submit">Подписаться</button>
+                        <a href="#" class="btn" type="submit">Подписаться</a>
                     </div>
                 </form>
             </div>
@@ -160,6 +198,17 @@
         </div>
     </div>
 </div>
+<footer class="footer">
+    <div class="container clearfix">
+        <span class="footer-copyright">&copy;&nbsp; 2014-2016. Все права защищены.</span>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</footer>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/main.js"></script>
 </body>

@@ -1,4 +1,7 @@
 @media screen and (min-width: 680px) {
+    .header-block {
+        display: flex;
+    }
     .nav-btn {
         display: none;
     }
@@ -7,7 +10,6 @@
         width: auto;
         background: none;
         display: block;
-        float: right;
     }
     .main-nav li {
         display: inline-block;
@@ -28,6 +30,22 @@
     }
     .info-item {
         width: 50%;
+    }
+    .social-icons {
+        float: right;
+    }
+    .profile {
+        margin-left: 40px;
+    }
+    .profile-text {
+        display: block;
+    }
+    .order-row {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .order-col {
+        display: flex;
     }
 }
 @media screen and (min-width: 980px) {
